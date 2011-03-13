@@ -3,7 +3,7 @@ set antialias                     " MacVim: smooth fonts.
 set encoding=utf-8                " Use UTF-8 everywhere.
 set guioptions-=T                 " Hide toolbar.
 set background=light              " Background.
-set lines=34 columns=100          " Window dimensions.
+set lines=40 columns=124          " Window dimensions.
 
 colorscheme vividchalk
 
