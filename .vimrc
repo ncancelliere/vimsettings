@@ -10,7 +10,7 @@ filetype plugin indent on         " Turn on file type detection.
 
 runtime macros/matchit.vim        " Load the matchit plugin.
 
-let mapleader = ";"
+let mapleader = ";"               " Change leader from \ to ; for easier typing
 
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode you're in.
@@ -48,6 +48,7 @@ set shiftwidth=2                  " And again, related.
 set expandtab                     " Use spaces instead of tabs
 
 set laststatus=2                  " Show the status line all the time
+
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
@@ -87,5 +88,3 @@ map <leader>nt :NERDTreeToggle<cr>
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 " autocmd BufNewFile,BufRead *_spec.rb compiler rspec
-
-colorscheme vividchalk
