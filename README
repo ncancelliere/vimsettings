@@ -2,6 +2,11 @@
 VIM SETTINGS
 =================================
 
-Saves my time when setting up a new system.  Has all my favorite VIM settings.
+Saves my time when setting up a new system.  Has all my favorite VIM settings. If your
+VIM isn't compiled with Ruby enabled you can still use most of the plugins except Lusty Explorer.
+
+
+Requirements:
+ * VIM compiled with Ruby enabled (sudo apt-get install vim-ruby)
 
 
