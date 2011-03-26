@@ -88,3 +88,8 @@ map <leader>nt :NERDTreeToggle<cr>
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 " autocmd BufNewFile,BufRead *_spec.rb compiler rspec
+
+" For autoindenting certain file types
+autocmd FileType html setlocal shiftwidth=4 softtabstop=4
+autocmd Filetype eruby setlocal shiftwidth=4 softtabstop=4
+autocmd FileType css setlocal shiftwidth=4 softtabstop=4
