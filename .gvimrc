@@ -6,6 +6,7 @@ set background=light              " Background.
 set lines=40 columns=124          " Window dimensions.
 
 colorscheme cobalt
+set transparency=5
 
 " Uncomment to use.
 " set guioptions-=r                 " Don't show right scrollbar

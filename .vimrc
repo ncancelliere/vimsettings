@@ -71,6 +71,7 @@ map <leader>wl <C-W>l
 
 " Popular command mappings.
 map <leader>nt :NERDTreeToggle<cr>
+map <leader>rr :!ruby %<cr>
 
 " Uncomment to use Jamis Buck's file opening plugin
 " map <Leader>t :FuzzyFinderTextMate<Enter>
