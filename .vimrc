@@ -31,12 +31,13 @@ set ruler                         " Show cursor position.
 set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
 
-set wrap                          " Turn on line wrapping.
+" set wrap                        " Turn on line wrapping.
+set nowrap                        " Turn off line wrapping (disable if wrap is on)
 set scrolloff=3                   " Show 3 lines of context around the cursor.
 
 set title                         " Set the terminal's title
 
-set visualbell                    " No beeping.
+" set visualbell                    " No beeping.
 
 set nobackup                      " Don't make a backup before overwriting a file.
 set nowritebackup                 " And again.
@@ -94,3 +95,4 @@ map <leader>rr :!ruby %<cr>
 autocmd FileType html setlocal shiftwidth=4 softtabstop=4
 autocmd Filetype eruby setlocal shiftwidth=4 softtabstop=4
 autocmd FileType css setlocal shiftwidth=4 softtabstop=4
+
