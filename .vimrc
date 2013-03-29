@@ -95,4 +95,4 @@ map <leader>rr :!ruby %<cr>
 autocmd FileType html setlocal shiftwidth=4 softtabstop=4
 autocmd Filetype eruby setlocal shiftwidth=4 softtabstop=4
 autocmd FileType css setlocal shiftwidth=4 softtabstop=4
-
+autocmd FileType python setlocal shiftwidth=4 softtabstop=4

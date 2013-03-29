@@ -1,7 +1,7 @@
-set gfn=Ubuntu\ Mono:h15          " Font family and font size.
+set gfn=Ubuntu\ Mono:h16          " Font family and font size.
 set encoding=utf-8                " Use UTF-8 everywhere.
 set guioptions-=T                 " Hide toolbar.
-set lines=40 columns=80           " Window dimensions.
+set lines=40 columns=95           " Window dimensions.
 
 set background=dark
 colorscheme solarized
